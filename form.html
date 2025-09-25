@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="/action.php">
+        <p>Enter Your Name: </p>
+        <input type="text">
+        <p>Enter Your email</p>
+        <input type="email">
+        <p>Password</p>
+        <input type="password">
+        <p>Date of Birth</p>
+        <input type="date">
+        <p>Choose Your Gender</p>
+        <label for="101">
+        <input type="radio"value="Male"name="Gender"id="101">Male
+        </label><br>
+        <label for="102">
+        <input type="radio"value="Female"name="Gender"id="102">Female
+        </label><br>
+        <label for="103">
+        <input type="radio"value="Other"name="Gender"id="103">Other
+        </label><br>
+        <p>Select Your Fav Subject</p>
+        <label for="English">
+        <input type="checkbox"value="English"name="Subject"id="121">English
+        </label><br>
+        <label for="Hindi">
+        <input type="checkbox"value="Hindi"name="Subject"id="122">Hindi
+        </label><br>
+        <label for="Maths">
+        <input type="checkbox"value="Maths"name="Subject"id="123">Maths
+        </label><br>
+        <label for="Science">
+        <input type="checkbox"value="Science"name="Subject"id="124">Science
+        </label><br>
+        <label for="SST">
+        <input type="checkbox"value="SST"name="Subject"id="125">SST
+        </label><br>
+        <label for="Computer">
+        <input type="checkbox"value="Computer"name="Subject"id="126">Computer
+        </label><br>
+        <p>Choose your City</p>
+        <select name="city"id="150">
+            <option value="Delhi">delhi</option>
+            <option value="Noida">Noida</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Gurugram">Gurugram</option>
+        </select><br>
+        <lable>
+      <textarea name="feedback"id="101"placeholder="please give your vauleble feedback"></textarea>
+    </lable>
+        <br>
+        <input type="submit"value="Registration">
+    </form>
+</body>
+</html>
